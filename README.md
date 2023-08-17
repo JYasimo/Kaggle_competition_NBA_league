@@ -14,3 +14,5 @@ Moving towards deploying a production-ready solution, the following aspects will
 Enhancing the user interface for intuitive predictions access.
 Proactively addressing ethical biases to ensure fairness.
 Establishing real-time monitoring mechanisms to track model adjustments over time.
+# Interactive Tableau Visualization
+A valuable addition to this repository is the inclusion of an interactive Tableau visualization. For detailed insights, please navigate to the figures file within the models folder and access the dedicated module visualization file.
