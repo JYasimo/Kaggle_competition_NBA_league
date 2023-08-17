@@ -1,57 +1,16 @@
-adv_mla_lab_1
-==============================
-
-A short description of the project.
-
-Project Organization
-------------
-
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
-
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+# Project Overview
+This GitHub repository presents an in-depth analysis of a basketball player election dataset using machine learning techniques. The primary objective is to develop an effective predictive model for player selection.
+Experiment 1: Polynomial Logistic Regression
+The initial experiment involved implementing a polynomial logistic regression model, which achieved an impressive Area Under the Receiver Operating Characteristic (AUROC) score of 0.95891.
+# Encountered Issues
+During the analysis, a challenge was identified in the "height" column, where specific entries contained inconsistent values, including dates. Given the potential significance of this feature in basketball player selection, a decision was made to exclude these problematic entries. Subsequent experiments will investigate the validity and relevance of these values.
+# Future Experiments
+Future iterations of the project will incorporate the following strategies:
+Utilizing diverse machine learning models.
+Exploring advanced feature engineering techniques.
+Fine-tuning hyperparameters for improved model performance.
+# Deployment Considerations
+Moving towards deploying a production-ready solution, the following aspects will be prioritized:
+Enhancing the user interface for intuitive predictions access.
+Proactively addressing ethical biases to ensure fairness.
+Establishing real-time monitoring mechanisms to track model adjustments over time.
